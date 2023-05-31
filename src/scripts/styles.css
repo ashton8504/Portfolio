@@ -1,0 +1,15 @@
+/* style for buttons on about me section */
+.cta-btn {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Add this line */
+}
+
+.section-title {
+  padding-top: 100px;
+}
