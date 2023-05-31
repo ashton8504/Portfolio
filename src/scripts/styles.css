@@ -23,7 +23,7 @@
 }
 
 /* For Cell Phones */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
   .row {
     flex-direction: column-reverse;
   }
@@ -41,14 +41,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.5rem; /* Adjust the padding as desired */
   }
 
   .project-wrapper__image {
     margin-bottom: 1.5rem;
+    margin-top: 1.5rem; /* Adjust the margin as desired */
   }
 
   .project-wrapper__text-title {
-    font-size: 28px; /* Adjust the font size as desired for smaller screens */
+    font-size: 32px !important; /* Adjust the font size as desired for smaller screens */
   }
 
   .cta-buttons {
@@ -64,5 +66,10 @@
 
   .cta-btn--desktop-only {
     display: none;
+  }
+
+  .cta-btn {
+    display: block;
+    margin-top: 1.5rem; /* Adjust the margin as desired */
   }
 }
