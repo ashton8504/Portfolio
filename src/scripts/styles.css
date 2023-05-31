@@ -13,3 +13,43 @@
 .section-title {
   padding-top: 100px;
 }
+
+@media only screen and (max-width: 767px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .col-lg-8,
+  .col-lg-4 {
+    width: 100%;
+  }
+
+  .col-lg-8 {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-wrapper__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-wrapper__image {
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .cta-btn--center {
+    margin: 0 auto;
+  }
+
+  .cta-btn--desktop-only {
+    display: none;
+  }
+}
