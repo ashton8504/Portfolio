@@ -47,6 +47,10 @@
     margin-bottom: 1.5rem;
   }
 
+  .project-wrapper__text-title {
+    font-size: 28px; /* Adjust the font size as desired for smaller screens */
+  }
+
   .cta-buttons {
     display: flex;
     justify-content: center;
