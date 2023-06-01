@@ -23,6 +23,21 @@
   font-size: 34px;
 }
 
+/* custom hyperlink for Rusch Original Website */
+
+.ruschLink {
+  font-weight: bolder;
+}
+
+.ruschLink:hover {
+  color: #faf9f6 !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease;
+  background-color: #282b38;
+  border-radius: 4px;
+  padding: 6px;
+}
+
 /* Styles for desktop and smaller windows */
 
 @media only screen and (max-width: 767px) {
